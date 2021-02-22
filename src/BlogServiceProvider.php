@@ -51,5 +51,6 @@ class BlogServiceProvider extends ServiceProvider
 
     public function register()
     {
+        $this->loadViewsFrom(__DIR__ . '/views', 'blog');
     }
 }
