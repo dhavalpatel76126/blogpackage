@@ -20,14 +20,4 @@ class PermissionHelper
         }
     }
 
-    public static function __checkUserPermission($path = '')
-    {
-        if (auth()->user() != null) {
-            if(auth()->user()->usertype == 'customer'){
-                return true;
-            }
-        } else {
-            return false;
-        }
-    }
 }
