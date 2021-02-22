@@ -24,7 +24,7 @@ class BlogServiceProvider extends ServiceProvider
 
         // publish views
         $this->publishes([
-            __DIR__ . '/views' => resource_path('views/blog/'),
+            __DIR__ . '/views' => resource_path('views/vendor/blog/'),
         ], 'views');
 
         // publish route 
