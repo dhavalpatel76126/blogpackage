@@ -1,0 +1,19 @@
+{
+    "name": "dhavalcct/blog",
+    "description": "Quickly add a blog with admin panel to your existing project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dhaval gediya",
+            "email": "dhaval.g@communicationcrafts.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cct\\Blog\\": "src/"
+        }
+    }
+}
